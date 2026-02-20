@@ -9,8 +9,8 @@ public class ListeEtudiants {
     private static final char fSep = File.separatorChar;
 
     // Chemins des fichiers pour lire et écrire les données des étudiants
-    private static final String pathIn = System.getProperty("user.dir") + fSep + "src" + fSep + "donnees" + fSep + "etudiants.csv";
-    private static final String pathOut = System.getProperty("user.dir") + fSep + "src" + fSep + "donnees" + fSep + "etudiantsOut.csv";
+    private static final String pathIn = System.getProperty("user.dir") + fSep + "LireEtudiants" + fSep +"src" + fSep + "donnees" + fSep + "etudiants.csv";
+    private static final String pathOut = System.getProperty("user.dir") + fSep + "LireEtudiants" + fSep + "src" + fSep + "donnees" + fSep + "etudiantsOut.csv";
 
     // Liste des étudiants
     private ArrayList<Etudiant> etudiants;
