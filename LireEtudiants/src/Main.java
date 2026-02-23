@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+
+        System.out.println("Ceci est un changement");
+
         // Instanciation d'une liste d'étudiants
         ListeEtudiants listeEtudiants = new ListeEtudiants();
 
